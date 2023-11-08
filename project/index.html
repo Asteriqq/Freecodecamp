@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">My Survey</h1>
+        <p id="description"><em>Thank you for your feedback!</em></p>
+    </header>
+
+    <form action="" id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" class="input"required>
+
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email" class="input" required>
+
+            <label for="age" id="number-label" >Age</label>
+            <input type="number" id="number" placeholder="Enter your age" class="input" min="18" max="70">
+
+            <label for="">Which option best describes your current role?</label>
+            <select name="current-role" id="dropdown">
+                <option value="" disabled selected>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learn">Full Time Learner</option>
+                <option value="null">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+
+            <p>Would you recomend us to a friend?</p>
+            <label for=""><input type="radio" name="reccommendation" value="option1">Definitely</label>
+
+            <label for=""><input type="radio" name="reccommendation" value="option2">Maybe</label>
+
+            <label for=""><input type="radio" name="reccommendation" value="option3">Not Sure</label>
+
+            <label for="">What is your favorite feature on our space?</label>
+            <select name="" id="">
+                <option value="optionOne" disabled selected>Select an option</option>
+                <option value="optionTwo">Challenges</option>
+                <option value="optionThree">Projects</option>
+                <option value="optionFour">Open Source</option>
+                <option value="optionFive">Community</option>
+            </select>
+
+            <p>What would you like to see improved?</p>
+            <label for=""><input type="checkbox" value="one">Front-end Projects</label>
+            <label for=""><input type="checkbox" value="two">Back-end Projects</label>
+            <label for=""><input type="checkbox" value="three">Challenges</label>
+            <label for=""><input type="checkbox" value="four">Open Source</label>
+            <label for=""><input type="checkbox" value="five">Community</label>
+            <label for=""><input type="checkbox" value="six">Forum</label>
+
+            <p>Any comments or suggestions?</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <button id="submit" type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

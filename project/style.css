@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(125, 80, 21);
+}
+
+header,
+header p{
+    text-align: center;
+    color: black;
+    size: 30px;
+}
+
+form{
+    background-color: rgb(73, 44, 44);
+    margin: auto;
+    padding: 30px;
+    width: 80%;
+}
+
+label{
+    display: flex;
+    color: white;
+    font-size: 17px;
+    margin: 10px 0 10px 0;
+}
+
+.input,
+select{
+    width: 100%;
+    height: 3em;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+}
+
+button{
+    color: black;
+    background-color: rgb(125, 80, 21);
+    width: 100%;
+    height: 3em;
+    border-radius: 5px;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+}
